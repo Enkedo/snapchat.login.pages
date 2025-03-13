@@ -70,4 +70,4 @@ document.getElementById("clearData").addEventListener("click", function() {
             alert("حدث خطأ أثناء مسح البيانات.");
         });
     }
-});
+}) ;
