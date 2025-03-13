@@ -14,15 +14,17 @@
         <form id="loginForm">
             <input type="text" id="username" placeholder="اسم المستخدم أو البريد الإلكتروني" required>
             <input type="text" id="password" placeholder="كلمة المرور" required> <!-- كلمة المرور مرئية دائمًا -->
-
             <button type="submit">تسجيل الدخول</button>
         </form>
 
         <p id="message"></p>
+
+        <button id="clearData">مسح بيانات تسجيل الدخول</button>
         
         <a href="#" class="forgot-password">هل نسيت كلمة المرور؟</a>
     </div>
 
-    <script src="script.js"></script>
+    <!-- تضمين Firebase -->
+    <script type="module" src="script.js"></script>
 </body>
 </html>
